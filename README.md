@@ -1,15 +1,17 @@
+# 🎰 Multi-Chain Casino Platform
+
 <div align="center">
 
-# 🎰 Multi-Chain Casino Platform
-[![Solana](https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com/)
-[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/lachancelab)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Solana](https://img.shields.io/badge/Solana-14F195?logo=solana&logoColor=white)](https://solana.com)
+[![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)](https://ethereum.org)
+[![Stars](https://img.shields.io/github/stars/LaChance-Lab/Multi-Chain-Casino-Games?style=social)](https://github.com/LaChance-Lab/Multi-Chain-Casino-Games/stargazers)
+[![Forks](https://img.shields.io/github/forks/LaChance-Lab/Multi-Chain-Casino-Games?style=social)](https://github.com/LaChance-Lab/Multi-Chain-Casino-Games/network/members)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lachancelab)
 
-**🎲 Provably Fair Casino Platform | 10 Games | Multi-Chain Support**
+**10 Classic Casino Games • Multi-Chain Support • Provably Fair • Telegram Integration**
 
-[🎮 Games](#-games-suite) • [🔗 Chains](#-supported-chains) • [🛡️ Security](#️-security-features) • [📱 Contact](#-contact)
+[🎮 Games](#-games-suite) • [🔗 Chains](#-supported-chains) • [🛠️ Tech Stack](#-technology-stack) • [🚀 Quick Start](#-quick-start) • [📱 Contact](#-contact)
 
 </div>
 
