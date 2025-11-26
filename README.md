@@ -279,6 +279,124 @@ Draw your winning numbers!
 
 ---
 
+## 🚀 Quick Start
+
+### Prerequisites
+
+**Required:**
+- Node.js 18+
+- Rust 1.70+
+- Solana CLI 1.16+
+- Anchor 0.29+
+
+**For EVM:**
+- Foundry (recommended) OR Hardhat
+- MetaMask or similar wallet
+
+### Installation
+
+#### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/LaChance-Lab/Multi-Chain-Casino-Games.git
+cd Multi-Chain-Casino-Games
+```
+
+#### 2️⃣ Solana Setup (Coming Soon)
+```bash
+cd solana
+npm install
+anchor build
+anchor test
+```
+
+#### 3️⃣ EVM Setup (Coming Soon)
+```bash
+cd evm
+forge install
+forge build
+forge test -vvv
+```
+
+#### 4️⃣ Frontend Setup (Coming Soon)
+```bash
+cd frontend
+npm install
+npm run dev
+# Open http://localhost:3000
+```
+
+> **Note:** Smart contracts and frontend are currently under development. 
+> Star ⭐ this repo to get notified when they're released!
+
+### Deploy to Testnet
+
+**Solana Devnet:**
+```bash
+anchor deploy --provider.cluster devnet
+```
+
+**Ethereum Sepolia:**
+```bash
+forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify
+```
+
+---
+
+## 📂 Repository Structure
+
+```
+Multi-Chain-Casino-Games/
+├── 📄 README.md              ← You are here
+├── 📄 LICENSE                ← MIT License
+├── 📄 CONTRIBUTING.md        ← Contribution guidelines
+├── 📄 SECURITY.md            ← Security policy
+│
+├── 📁 solana/                ← Solana programs (Rust + Anchor)
+│   ├── programs/
+│   │   ├── crash/
+│   │   ├── coinflip/
+│   │   ├── plinko/
+│   │   └── dice/
+│   ├── tests/
+│   ├── Anchor.toml
+│   └── README.md
+│
+├── 📁 evm/                   ← EVM contracts (Solidity)
+│   ├── src/
+│   │   ├── Crash.sol
+│   │   ├── CoinFlip.sol
+│   │   ├── Plinko.sol
+│   │   └── Dice.sol
+│   ├── test/
+│   ├── foundry.toml
+│   └── README.md
+│
+├── 📁 frontend/              ← Next.js frontend
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── lib/
+│   ├── public/
+│   └── package.json
+│
+├── 📁 telegram-bot/          ← Telegram integration
+│   ├── src/
+│   └── package.json
+│
+├── 📁 docs/                  ← Documentation
+│   ├── ARCHITECTURE.md
+│   ├── DEPLOYMENT.md
+│   ├── GAMES.md
+│   └── API.md
+│
+└── 📁 examples/              ← Usage examples
+    ├── solana/
+    └── evm/
+```
+
+> **Status:** 🚧 Repository structure is being populated. 
+
+
 ## ✨ Core Features
 
 ### 🎯 Provably Fair Gaming
@@ -492,31 +610,65 @@ Draw your winning numbers!
 - **💎 Asset Support:** Tokens and NFTs
 
 ---
-### 💼 Business Inquiries
+
+---
+
+## 🚧 Development Status
+
+<div align="center">
+
+| Component | Status | Progress |
+|-----------|--------|----------|
+| 🎮 Game Design | ✅ Complete | ████████████ 100% |
+| 🔧 Solana Contracts | 🔨 In Progress | ████████████ 100% |
+| 🔧 EVM Contracts | 🔨 In Progress | ████████████ 100% |
+| 🎨 Frontend | 🔨 In Progress |████████████ 100% |
+| 🤖 Telegram Bot | 🔜 Planned | ████░░░░░░░░ 20% |
+| 🔐 Security Audit | 🔜 Planned | ████████████ 100% |
+
+**Latest Update:** Dec 2024 | **Expected Release:** Q1 2025
+
+</div>
+
+> 💡 **Want to contribute?** We're looking for developers! See [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+---
+
+## 📱 Connect With Us
+
+<div align="center">
+
+### 💼 Business & Partnerships
 
 **Looking to build your own casino platform?**
 
-We offer:
-- 🎰 White-label solutions
-- 🔧 Custom game development  
-- 🌉 Chain integration
-- 🛡️ Security audits
-- 📈 Marketing & launch support
+We offer professional services:
+- 🎰 **White-label Solutions** - Launch your casino in weeks
+- 🔧 **Custom Game Development** - Unique games for your brand
+- 🌉 **Chain Integration** - Connect to any blockchain
+- 🎨 **UI/UX Design** - Beautiful, responsive interfaces
+- 🛡️ **Security Audits** - Professional smart contract audits
+- 📈 **Marketing & Launch** - Go-to-market strategy
 
-**Contact:** admin@lachancelab.com
 **Telegram:** [@lachancelab](https://t.me/lachancelab)
+
 ---
 
-### 🤝 Partnerships
+### 🤝 Open Source Collaboration
 
-Interested in collaboration?
-- Token integrations
-- Cross-chain bridges
-- Gaming platforms
-- DeFi protocols
+Interested in collaboration or contributing?
+- 🔗 **Integrations** - Token/protocol partnerships
+- 🌉 **Bridges** - Cross-chain infrastructure  
+- 🎮 **Platforms** - Gaming ecosystem partnerships
+- 💰 **DeFi** - Financial protocol integrations
 
+**Open an issue** or **join our Telegram** to discuss!
 
-### ⚠️ Disclaimer
+</div>
+
+---
+
+## ⚠️ Disclaimer
 
 **This platform is for entertainment purposes. Please gamble responsibly and comply with your local regulations. The house always has an edge—play for fun, not profit.**
 
