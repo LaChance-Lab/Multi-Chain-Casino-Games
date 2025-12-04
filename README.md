@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
 
 ## 🌟 Overview
 
-A fully decentralized, provably fair casino platform supporting both Solana and EVM-compatible chains. Play classic casino games with transparent, verifiable outcomes powered by VRF (Verifiable Random Function) technology.
+A fully decentralized, provably fair casino platform supporting Solana, EVM-compatible, Bitcoin, Sui, Cardano Chains. Play classic casino games with transparent, verifiable outcomes powered by VRF (Verifiable Random Function) technology. (Built 10+ Casino Game Platforms)
 
 **Built for:**
 - 🎲 Casino operators looking for multi-chain support
