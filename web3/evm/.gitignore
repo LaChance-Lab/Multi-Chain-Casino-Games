@@ -1,0 +1,10 @@
+out/
+cache/
+broadcast/
+*.sol
+!src/**/*.sol
+!script/**/*.sol
+!test/**/*.sol
+.env
+.env.local
+

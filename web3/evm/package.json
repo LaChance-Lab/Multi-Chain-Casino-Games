@@ -1,0 +1,20 @@
+{
+  "name": "multi-chain-casino-evm",
+  "version": "1.0.0",
+  "description": "EVM smart contracts for Multi-Chain Casino Games",
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "test:verbose": "forge test -vvv",
+    "test:gas": "forge test --gas-report",
+    "deploy:sepolia": "forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify",
+    "deploy:mainnet": "forge script script/Deploy.s.sol --rpc-url mainnet --broadcast --verify",
+    "lint": "forge fmt --check",
+    "format": "forge fmt"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
+
